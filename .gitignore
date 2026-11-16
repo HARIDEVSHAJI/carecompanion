@@ -1,0 +1,35 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python cache & testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Databases & runtime demo outputs
+*.db
+*.sqlite
+*.sqlite3
+demo_output/
+
+# Custom user test data (keep benchmark p01, p02, p03 clean)
+data/synthetic/u_*/
+data/synthetic/custom_users.json
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

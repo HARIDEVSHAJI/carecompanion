@@ -1,0 +1,14 @@
+{
+  "p01": {
+    "name": "Aarav",
+    "story": "Poor sleep at first; improves quickly once he follows the bedtime advice, steps stay low."
+  },
+  "p02": {
+    "name": "Meera",
+    "story": "Very low steps; the first tip does NOT work, the changed strategy does."
+  },
+  "p03": {
+    "name": "Rohan",
+    "story": "Active, but sleeps badly during exams; sleep fixes only after strategy change."
+  }
+}
