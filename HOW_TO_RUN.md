@@ -177,3 +177,4 @@ pytest
   - Yes! Just run `python seed_demo_data.py`.
 - **Q: `streamlit: command not found`?**
   - Make sure your virtual environment is activated (`.venv\Scripts\activate` on Windows or `source .venv/bin/activate` on Unix).
+
