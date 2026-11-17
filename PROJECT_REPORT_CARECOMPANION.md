@@ -17,8 +17,8 @@
 
 | Name | Registration No. | Academic Role | Project Domain & Core Responsibilities |
 | :--- | :--- | :--- | :--- |
-| **Hari Dev Shaji** | *12300001* | Team Lead / Principal Systems Architect | **Part I & Part II:** Problem Formulation, Medical/Biometric Foundations, Agentic Tool Loop Design, LLM/Groq Integration, Dynamic User Provisioning Engine, and Anti-Leak Regex Sanitization Pipeline. |
-| **Co-Author / Co-Engineer** | *12300002* | Systems & Data Verification Engineer | **Part II & Part III:** Relational Database Architecture (SQLite Schema & Indexing), Longitudinal Telemetry Synthesizer ($\mathcal{N}(0,\sigma)$ Engine), Deterministic Safety Guardrail Triage, Pytest Verification Suite, Seeder Subsystem, and Deployment Framework. |
+| **Hari Dev Shaji** | *12313476* | Team Lead / Principal Systems Architect | **Part I & Part II:** Problem Formulation, Medical/Biometric Foundations, Agentic Tool Loop Design, LLM/Groq Integration, Dynamic User Provisioning Engine, and Anti-Leak Regex Sanitization Pipeline. |
+| **Nikhil Singh** | *12313478* | Systems & Data Verification Engineer | **Part II & Part III:** Relational Database Architecture (SQLite Schema & Indexing), Longitudinal Telemetry Synthesizer ($\mathcal{N}(0,\sigma)$ Engine), Deterministic Safety Guardrail Triage, Pytest Verification Suite, Seeder Subsystem, and Deployment Framework. |
 
 ---
 
@@ -50,17 +50,17 @@
 
 | Project Topic / System Subcomponent | Primary Owner | Secondary Contributor | Verification Method |
 | :--- | :--- | :--- | :--- |
-| **Problem Definition & Clinical Motivation** | Hari Dev Shaji | Co-Author | Literature review & clinical coaching protocols |
-| **Agent Core & Autonomous Tool Orchestration** | Hari Dev Shaji | Co-Author | Autonomous ReAct trace validation |
-| **LLM Gateway & API Connection Hardening** | Hari Dev Shaji | Co-Author | Groq LPU benchmark & exponential backoff |
-| **Dynamic User Onboarding & Goal Telemetry** | Hari Dev Shaji | Co-Author | Multi-persona live generation verification |
-| **Output Token Sanitization (`_clean_reply`)** | Hari Dev Shaji | Co-Author | Regex test cases & XML boundary fuzzing |
-| **Relational Database Design (`carecompanion.db`)** | Co-Author | Hari Dev Shaji | Schema integrity, foreign keys & query latency |
-| **Synthetic Biometric Telemetry ($\mathcal{N}(0, \sigma)$)** | Co-Author | Hari Dev Shaji | Statistical ground-truth variance check |
-| **Episodic Reflection & Long-Term Memory ($I \in [1,5]$)**| Co-Author | Hari Dev Shaji | Cross-session fact persistence validation |
-| **Outcome Tracking & Adaptive Advice Switching** | Co-Author | Hari Dev Shaji | Multi-session simulation (Memory ON vs OFF) |
-| **Deterministic Red-Flag Safety Triage** | Co-Author | Hari Dev Shaji | Fuzz testing with acute clinical symptoms |
-| **Test Suite, Seeder Script & Cloud Deployment** | Co-Author | Hari Dev Shaji | Pytest 8/8 pass, Streamlit Cloud test |
+| **Problem Definition & Clinical Motivation** | Hari Dev Shaji | Nikhil Singh | Literature review & clinical coaching protocols |
+| **Agent Core & Autonomous Tool Orchestration** | Hari Dev Shaji | Nikhil Singh | Autonomous ReAct trace validation |
+| **LLM Gateway & API Connection Hardening** | Hari Dev Shaji | Nikhil Singh | Groq LPU benchmark & exponential backoff |
+| **Dynamic User Onboarding & Goal Telemetry** | Hari Dev Shaji | Nikhil Singh | Multi-persona live generation verification |
+| **Output Token Sanitization (`_clean_reply`)** | Hari Dev Shaji | Nikhil Singh | Regex test cases & XML boundary fuzzing |
+| **Relational Database Design (`carecompanion.db`)** | Nikhil Singh | Hari Dev Shaji | Schema integrity, foreign keys & query latency |
+| **Synthetic Biometric Telemetry ($\mathcal{N}(0, \sigma)$)** | Nikhil Singh | Hari Dev Shaji | Statistical ground-truth variance check |
+| **Episodic Reflection & Long-Term Memory ($I \in [1,5]$)**| Nikhil Singh | Hari Dev Shaji | Cross-session fact persistence validation |
+| **Outcome Tracking & Adaptive Advice Switching** | Nikhil Singh | Hari Dev Shaji | Multi-session simulation (Memory ON vs OFF) |
+| **Deterministic Red-Flag Safety Triage** | Nikhil Singh | Hari Dev Shaji | Fuzz testing with acute clinical symptoms |
+| **Test Suite, Seeder Script & Cloud Deployment** | Nikhil Singh | Hari Dev Shaji | Pytest 8/8 pass, Streamlit Cloud test |
 
 ---
 
@@ -263,7 +263,7 @@ The capstone project specification mandates the design, construction, verificati
 ---
 
 # PART II: System Architecture, Memory Modeling, and Agentic Reasoning
-*Authored by: Hari Dev Shaji & Co-Author*
+*Authored by: Hari Dev Shaji & Nikhil Singh*
 
 ---
 
@@ -662,7 +662,7 @@ User Input Message
 ---
 
 # PART III: Implementation, Verification, Empirical Results, and Roadmap
-*Authored by: Co-Author & Hari Dev Shaji*
+*Authored by: Nikhil Singh & Hari Dev Shaji*
 
 ---
 
