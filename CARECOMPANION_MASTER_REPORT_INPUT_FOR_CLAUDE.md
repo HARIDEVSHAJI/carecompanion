@@ -12,9 +12,9 @@
 > 2. **Reference Structure:** Follow the exact layout, section numbering, and presentation hand-overs of the reference *FloatChat* report:
 >    - **Cover & Metadata:** Title, meta table, two-student authorship matrix, formal Table of Contents with dot leaders.
 >    - **Executive Summary & Abstract:** Abstract with 4-card KPI metric banner, team work division diagram, and originality statement.
->    - **Part I — Problem Context, Clinical Foundations & Solution Concept:** (Lead Author: **Hari Dev Shaji**, Reg. No. **12313476**, Slides 1–4).
->    - **Part II — System Architecture, Database & Agent Reasoning:** (Joint Authors: **Hari Dev Shaji** & **Nikhil Singh**, Reg. No. **12313478**, Slides 5–7).
->    - **Part III — Implementation, Verification, Empirical Results & Future Scope:** (Lead Author: **Nikhil Singh**, Reg. No. **12313478**, Slides 8–10).
+>    - **Part I — Problem Context, Clinical Foundations & Solution Concept:** (Lead Author: **Haridev Shaji**, Reg. No. **12313476**, Slides 1–4).
+>    - **Part II — System Architecture, Database & Agent Reasoning:** (Joint Authors: **Haridev Shaji** & **Nikhil Singh**, Reg. No. **12323695**, Slides 5–7).
+>    - **Part III — Implementation, Verification, Empirical Results & Future Scope:** (Lead Author: **Nikhil Singh**, Reg. No. **12323695**, Slides 8–10).
 >    - **References & Formal Appendices:** Appendices A, B, C, D, and E.
 > 3. **Image & Figure Generation Requirement (16 FIGURES TOTAL):**
 >    - You must include and generate **all 16 technical figures** specified in Section 5 of this document.
@@ -60,7 +60,7 @@
                             │
 ┌───────────────────────────┴────────────────────────────┐
 │                    NIKHIL SINGH                        │
-│                     (12313478)                         │
+│                     (12323695)                         │
 │  • Part II: SQLite Relational Schema & Indices         │
 │  • Zero-Mean Gaussian Biometric Synthesizer N(0, σ)   │
 │  • Deterministic Clinical Red-Flag Safety Triage       │
@@ -73,17 +73,17 @@
 
 | Topic / Component | Primary Owner | Secondary Contributor | Concrete Deliverables & Artifacts |
 | :--- | :---: | :---: | :--- |
-| **Problem Formulation & Clinical Gap** | **Hari Dev Shaji (12313476)** | Nikhil Singh (12313478) | Analysis of stateless conversational failure; behavioral science models (TTM, BJ Fogg). |
-| **Autonomous ReAct Agent & Tool Loop** | **Hari Dev Shaji (12313476)** | Nikhil Singh (12313478) | Multi-turn reasoning loop in `agent.py`; 5 tool JSON schemas; system prompt negative constraints. |
-| **Groq LPU Gateway & API Resilience** | **Hari Dev Shaji (12313476)** | Nikhil Singh (12313478) | `qwen/qwen3.8-27b` selection; 4-stage exponential backoff handling HTTP 429 rate limits. |
-| **Dynamic User Onboarding Subsystem** | **Hari Dev Shaji (12313476)** | Nikhil Singh (12313478) | "➕ Add New User" sidebar UI; dynamic UID generation; tailored onboarding prompt generator. |
-| **Output Token Sanitization Pipeline** | **Hari Dev Shaji (12313476)** | Nikhil Singh (12313478) | Multi-regex `_clean_reply` stripping `<tool_call>` XML blocks and robotic developer meta-talk. |
-| **Relational Database Design (SQLite)** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | 4-table relational schema (`users`, `sessions`, `memories`, `advice_log`) with foreign key cascades. |
-| **Longitudinal Biometric Telemetry** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | 4-week daily synthetic data generator with zero-mean normalized Gaussian noise $\mathcal{N}(0, \sigma^2)$. |
-| **Deterministic Clinical Safety Triage** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | Hardcoded pre-LLM regex interceptor in `safety.py` halting execution for acute red flags. |
-| **Automated Testing & Benchmark Suite** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | 8/8 automated Pytest test suite in `tests/test_all.py` (passes 100% in 0.77s). |
-| **Empirical Persona Case Studies** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | Longitudinal evaluations of Aarav (`p01`), Meera (`p02`), Rohan (`p03`), and custom user Hari. |
-| **Deployment & Seeder Infrastructure** | Nikhil Singh (12313478) | **Hari Dev Shaji (12313476)** | Sub-second database seeder (`seed_demo_data.py`); Streamlit Community Cloud and Render deployment setup. |
+| **Problem Formulation & Clinical Gap** | **Haridev Shaji (12313476)** | Nikhil Singh (12323695) | Analysis of stateless conversational failure; behavioral science models (TTM, BJ Fogg). |
+| **Autonomous ReAct Agent & Tool Loop** | **Haridev Shaji (12313476)** | Nikhil Singh (12323695) | Multi-turn reasoning loop in `agent.py`; 5 tool JSON schemas; system prompt negative constraints. |
+| **Groq LPU Gateway & API Resilience** | **Haridev Shaji (12313476)** | Nikhil Singh (12323695) | `qwen/qwen3.8-27b` selection; 4-stage exponential backoff handling HTTP 429 rate limits. |
+| **Dynamic User Onboarding Subsystem** | **Haridev Shaji (12313476)** | Nikhil Singh (12323695) | "➕ Add New User" sidebar UI; dynamic UID generation; tailored onboarding prompt generator. |
+| **Output Token Sanitization Pipeline** | **Haridev Shaji (12313476)** | Nikhil Singh (12323695) | Multi-regex `_clean_reply` stripping `<tool_call>` XML blocks and robotic developer meta-talk. |
+| **Relational Database Design (SQLite)** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | 4-table relational schema (`users`, `sessions`, `memories`, `advice_log`) with foreign key cascades. |
+| **Longitudinal Biometric Telemetry** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | 4-week daily synthetic data generator with zero-mean normalized Gaussian noise $\mathcal{N}(0, \sigma^2)$. |
+| **Deterministic Clinical Safety Triage** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | Hardcoded pre-LLM regex interceptor in `safety.py` halting execution for acute red flags. |
+| **Automated Testing & Benchmark Suite** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | 8/8 automated Pytest test suite in `tests/test_all.py` (passes 100% in 0.77s). |
+| **Empirical Persona Case Studies** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | Longitudinal evaluations of Aarav (`p01`), Meera (`p02`), Rohan (`p03`), and custom user Hari. |
+| **Deployment & Seeder Infrastructure** | Nikhil Singh (12323695) | **Haridev Shaji (12313476)** | Sub-second database seeder (`seed_demo_data.py`); Streamlit Community Cloud and Render deployment setup. |
 
 ---
 
@@ -141,7 +141,7 @@ Appendix E — Complete Python Code Implementations ........................... 
 # SECTION 3: DETAILED TECHNICAL CONTENT BY PART
 
 ## 3.1 PART I: Problem Context, Clinical Foundations & Solution Concept
-*(Authored by: Hari Dev Shaji — Registration No. 12313476)*
+*(Authored by: Haridev Shaji — Registration No. 12313476)*
 
 ### 1.1 Project Introduction & Preventable Disease Burden
 Preventable lifestyle-related chronic conditions—principally metabolic syndrome, Type 2 diabetes mellitus, cardiovascular disease, hypertension, and circadian sleep disorders—account for approximately 74% of premature deaths globally according to the World Health Organization. Clinical trials repeatedly demonstrate that sustained lifestyle interventions (regular daily ambulation of 7,000–10,000 steps, structured sleep hygiene, and progressive cardiovascular exercise) produce risk reductions equal or superior to primary pharmacological therapies. 
@@ -175,7 +175,7 @@ CareCompanion solves these challenges through an autonomous closed-loop architec
 ---
 
 ## 3.2 PART II: System Architecture, Database & Agent Reasoning
-*(Authored jointly by: Hari Dev Shaji & Nikhil Singh)*
+*(Authored jointly by: Haridev Shaji & Nikhil Singh)*
 
 ### 2.1 4-Tier Layered Architecture
 - **Tier 1 (Presentation):** Streamlit Web UI (`app.py`) with persona selector, 28-day telemetry charts, persistent memory inspector, and chat interface; headless evaluation CLI (`demo.py`).
@@ -301,7 +301,7 @@ If matched, execution halts immediately and returns a hardcoded clinical emergen
 ---
 
 ## 3.3 PART III: Implementation, Verification, Empirical Results & Future Scope
-*(Authored by: Nikhil Singh — Registration No. 12313478)*
+*(Authored by: Nikhil Singh — Registration No. 12323695)*
 
 ### 3.1 Technology Stack & Architectural Decisions
 - **Language:** Python 3.10–3.12 (Native type hints, robust ecosystem).
@@ -451,7 +451,7 @@ Claude must include and reference **all 16 technical figures** below in the comp
 
 | Figure # | Official Figure Title | Type / Format | Exact Technical Content & Data Points |
 | :---: | :--- | :--- | :--- |
-| **Figure 1** | *Division of Project Responsibilities across Presentation Hand-Overs* | Chevron Flowchart (SVG / Mermaid) | Shows Hand-over from Hari Dev Shaji (Part I: Slides 1–4, Part II Lead) to Nikhil Singh (Part II Co-Lead, Part III: Slides 8–10). |
+| **Figure 1** | *Division of Project Responsibilities across Presentation Hand-Overs* | Chevron Flowchart (SVG / Mermaid) | Shows Hand-over from Haridev Shaji (Part I: Slides 1–4, Part II (Agent Core & LLM)) to Nikhil Singh (Part II (Data Architecture & Safety), Part III: Slides 8–10). |
 | **Figure 2** | *Traditional Stateless Conversational AI Workflow vs. CareCompanion Closed-Loop Paradigm* | Comparative Diagram (SVG / ASCII) | Left: Prompt $\rightarrow$ Context Purge $\rightarrow$ Hallucinatory Advice $\rightarrow$ Injury Risk. Right: Prompt $\rightarrow$ Pre-LLM Safety $\rightarrow$ Relational Memory $\rightarrow$ Biometric Telemetry $\rightarrow$ Closed-Loop Audit $\rightarrow$ Sanitizer $\rightarrow$ Grounded Coaching. |
 | **Figure 3** | *Longitudinal 4-Week Habit Progression and Outcome Evaluation Cycle* | Biometric Line Chart (Matplotlib / SVG) | Week 1: Baseline (3,500) $\rightarrow$ Week 2: Initial Advice (3,600, Stalled) $\rightarrow$ Strategy Pivot $\rightarrow$ Week 3: (5,400) $\rightarrow$ Week 4: Target (5,600). |
 | **Figure 4** | *Layered 4-Tier System Architecture of CareCompanion* | Architecture Block Diagram (SVG / Mermaid) | Tiers 1–4: Presentation (`app.py`, `demo.py`), Reasoning (`agent.py`, `llm.py`, `mock_llm.py`), Execution (`tools.py`, `safety.py`), Persistence (`carecompanion.db`, `daily.csv`). |
