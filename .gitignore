@@ -24,6 +24,10 @@ env/
 *.sqlite3
 demo_output/
 
+# Documents & Word lock files
+*.docx
+~$*
+
 # Custom user test data (keep benchmark p01, p02, p03 clean)
 data/synthetic/u_*/
 data/synthetic/custom_users.json
